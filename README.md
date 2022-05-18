@@ -35,3 +35,7 @@ My notes offer you a platform to capture your task or anything which is in your 
 ![Screenshot (264)](https://user-images.githubusercontent.com/83405614/169063136-ecbd6802-28d0-4305-99b6-37061780c038.png)
 
 Thats all enjoy and take advantage of it. Be Happy 🤠
+
+# Credit : Raj Patel
+Github Profile : https://github.com/rajpatel17-bot
+Linkedin Profile : https://www.linkedin.com/in/raj-patel-73a15bq/
