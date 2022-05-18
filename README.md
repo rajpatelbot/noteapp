@@ -16,6 +16,7 @@ My notes offer you a platform to capture your task or anything which is in your 
 - See note created time
 - Clean UI
 - Dark mode
+- Mobile Responsive
 
 # Tech-Stack
 - MERN
