@@ -37,5 +37,5 @@ My notes offer you a platform to capture your task or anything which is in your 
 Thats all enjoy and take advantage of it. Be Happy 🤠
 
 # Credit : Raj Patel
-Github Profile : https://github.com/rajpatel17-bot
-Linkedin Profile : https://www.linkedin.com/in/raj-patel-73a15bq/
+- Github Profile : https://github.com/rajpatel17-bot
+- Linkedin Profile : https://www.linkedin.com/in/raj-patel-73a15bq/
