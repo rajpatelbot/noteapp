@@ -1,0 +1,77 @@
+.darkMode * {
+  --light-white-bg: #333446;
+  --para-light-black: rgb(170, 170, 170);
+  --blue-bg: #ff527e;
+  color: #fff;
+  background-color: #1C1D31;
+}
+
+.darkMode button {
+  -webkit-box-shadow: #888888 0px 0.3rem 0.5rem;
+          box-shadow: #888888 0px 0.3rem 0.5rem;
+}
+
+.darkMode .header {
+  -webkit-box-shadow: 0 6px 6px -4px #888888 !important;
+          box-shadow: 0 6px 6px -4px #888888 !important;
+}
+
+.darkMode .noteapp__body {
+  margin-top: 1rem;
+  height: calc(100% - 10vh);
+}
+
+.darkMode .navigationDiv,
+.darkMode .navigationDiv > a > a,
+.darkMode .noteapp__header__logoImg-name,
+.darkMode .noteapp__header__logoImg-name > img,
+.darkMode .noteapp__header__logoImg-name > h1,
+.darkMode .noteApp__header__loginSignUp-Btn,
+.darkMode .noteApp__header__loginSignUp-Btn > a,
+.darkMode .header__popupNavbar__loginSignUp-btn,
+.darkMode .noteApp__header_toggleMenu > svg,
+.darkMode .header__popupNavbar__loginSignUp-btn > a,
+.darkMode form > p, .darkMode .form > h1, .darkMode form, .darkMode .email, .darkMode .password, .darkMode .email > label, .darkMode .password > label,
+.darkMode .noteapp__welcomePage-noteInfo-search-header > h1,
+.darkMode .noteapp__welcomePage-createdNote-title,
+.darkMode .noteapp__welcomePage-createdNote-title > h1,
+.darkMode .noteapp__welcomePage-createdNote-title > svg,
+.darkMode .noteapp__welcomePage-createdNote-desc,
+.darkMode .noteapp__welcomePage-createdNote-desc > h1,
+.darkMode .noteapp__welcomePage-createdNote-note-info,
+.darkMode .noteapp__welcomePage-createdNote-note-info > svg,
+.darkMode .noteapp__welcomePage-createdNote-note-info > h1 {
+  background-color: var(--light-white-bg);
+}
+
+.darkMode .noteapp__welcomePage-createdNote-title {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.darkMode .noteapp__welcomePage-createdNote-note-info {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.darkMode .circle_loader {
+  background-color: var(--blue-bg);
+}
+
+.darkMode .form__input-showHideBtn, .darkMode .input, .darkMode .noteapp__header__user-info {
+  background-color: #1C1D31;
+}
+
+.darkMode .navBtn, .darkMode .navigationDiv > a > a {
+  color: #fff !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.darkMode .navigationDiv > a > a:hover {
+  color: var(--blue-bg) !important;
+}
+
+.darkMode .darkModeBtn {
+  color: #000;
+  background: #fff !important;
+}
+/*# sourceMappingURL=DarkMode.css.map */

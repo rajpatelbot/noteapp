@@ -1,0 +1,34 @@
+.WelcomeGreeting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.WelcomeGreeting > img{
+    width: var(--noteapp-body-img-size);
+    position: absolute;
+    opacity: 0.4;
+    transform: scale(0.7);
+    left: 10%;
+    pointer-events: none;
+}
+
+.WelcomeGreeting__msg{
+    width: 100%;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.WelcomeGreeting__msg > h1{
+    font-size: clamp(3.5rem, 4.5rem, 4.5vw);
+}
+
+.WelcomeGreeting__msg > p{
+    color: gray;
+    font-weight: 400;
+    font-size: var(--noteapp-navbar-font-size);
+}
+
+.WelcomeGreeting__msg-btn{
+    margin-top: 5rem;
+}

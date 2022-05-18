@@ -1,0 +1,48 @@
+.noteapp__body-img {
+  width: var(--noteapp-body-img-size);
+}
+
+.noteapp__body-img > img {
+  width: 100%;
+}
+
+/* This animation is for login signup */
+@keyframes animationImage {
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    
+  }
+}
+
+.imgAnimate{
+  animation-name: animationImage;
+  animation-duration: 1s;
+}
+
+/* This animation is for home page animation */
+@keyframes imghomeAnimate {
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    
+  }
+}
+
+.homeImgAnimate{
+  animation-name: imghomeAnimate;
+  animation-duration: 1s;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+  .noteapp__body-img {
+    width: clamp(30rem, 45vw, 60rem);
+  }
+
+  .imgAnimate{
+    margin-top: 3rem;
+  }
+}

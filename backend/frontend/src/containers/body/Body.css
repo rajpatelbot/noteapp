@@ -1,0 +1,63 @@
+.noteapp__body {
+  height: calc(100% - var(--nodeapp-header-height) - 1rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.noteapp__body-greeting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5;
+  margin-left: 6rem;
+  padding: 0 1rem;
+}
+
+.noteapp__body-greeting > h1 {
+  font-size: var(--noteapp-heading-font-size);
+}
+
+.noteapp__body-greeting span {
+  color: var(--blue-bg);
+}
+
+.noteapp__body-greeting > p {
+  font-weight: normal;
+  color: var(--para-light-black);
+  font-size: var(--noteapp-navbar-font-size);
+}
+
+.startBtn {
+  margin-top: 1rem;
+}
+
+/* This animation is for homepage */
+@keyframes animation {
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    
+  }
+}
+
+.animate{
+  animation-name: animation;
+  animation-duration: 1s;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+  .noteapp__body {
+    flex-direction: column;
+  }
+
+  .noteapp__body-greeting {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+}

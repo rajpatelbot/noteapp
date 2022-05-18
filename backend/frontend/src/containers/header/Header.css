@@ -1,0 +1,210 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--light-white-bg) !important;
+  box-shadow: var(--box-shadow);
+  z-index: 100;
+  height: var(--nodeapp-header-height);
+}
+
+.noteapp__header__logoImg-name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.noteapp__header__logoImg-name > img {
+  width: var(--noteapp-logo-size);
+}
+
+.noteapp__header__logoImg-name > h1 {
+  color: var(--blue-bg);
+  text-transform: uppercase;
+  font-size: var(--noteapp-navbar-font-size);
+}
+
+.navigationDiv {
+  gap: 3rem;
+  width: 100%;
+  display: flex;
+  margin-right: 2rem;
+  font-weight: normal;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBtn:hover {
+  color: var(--blue-bg) !important;
+}
+
+.noteApp__header__loginSignUp-Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navBtn {
+  margin: 0 !important;
+  color: #000 !important;
+  font-weight: normal !important;
+  border-radius: 0 !important;
+  padding: 0 0.5rem !important;
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.loginBtn:hover {
+  border-bottom: 3px solid var(--blue-bg);
+}
+
+.darkModeBtn {
+  margin: 0.5rem 0;
+  background: var(--noteapp-darkModeBtn-bg) !important;
+}
+
+.noteApp__header_toggleMenu > svg {
+  cursor: pointer;
+  color: #000 !important;
+}
+
+.noteApp__header_toggleMenu {
+  display: none;
+}
+
+.header__popupNavbar__loginSignUp-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.noteapp__header__user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  border-radius: 5rem;
+}
+
+.userProf{
+  color: #757575;
+  cursor: pointer;
+}
+
+.noteapp__header__user-info-dropdown{
+  height: 10rem;
+  padding: 1rem;
+  position: absolute;
+  transition: all 0.2s;
+  border-radius: 0.5rem;
+  transform: translateY(-450%);
+  top: var(--nodeapp-header-height);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 35%);
+  background-color: var(--light-white-bg);
+}
+
+.noteapp__header__user-info-dropdown-option{
+  padding: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 0.4rem;
+}
+
+.noteapp__header__user-info-dropdown-option:hover{
+  background-color: rgb(220, 220, 220);
+}
+
+.noteapp__header__user-info-dropdown-option > p,
+.navigation {
+  margin-left: 1rem;
+  font-weight: normal;
+  font-size: var(--noteapp-button-font-size);
+}
+
+.navigation:hover{
+  color: var(--blue-bg);
+}
+
+.header__popupNavbar {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.parent__header__popupNavbar {
+  position: absolute;
+  width: 100%;
+  display: none;
+  transform: translateY(-150%);
+  transition: all 0.3s;
+  z-index: 100;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+  .noteApp__header__loginSignUp-Btn {
+    display: none;
+  }
+
+  .navigationDiv {
+    gap: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .noteApp__header_toggleMenu {
+    display: block !important;
+  }
+
+  button {
+    width: unset;
+  }
+
+  .noteapp__header__user-info{
+    flex-direction: row;
+  }
+  
+  .navigationDiv > :first-child{
+    cursor: default;
+    border-radius: unset;
+    padding-bottom: 0.8rem;
+    /* border: 1px solid rgb(180, 180, 180); */
+  }
+
+  .navigationDiv > :first-child:hover{
+    background-color: unset;
+  }
+
+  .noteapp__header__user-info > p{
+    margin-left: 0.5rem;
+    font-weight: normal;
+    font-size: var(--noteapp-button-font-size);
+  }
+
+  .parent__header__popupNavbar {
+    padding: 0 2rem;
+    transform: translateY(-200%);
+    display: unset;
+    background-color: var(--light-white-bg);
+    border-top: 2px solid var(--blue-bg);
+    box-shadow: 0 6px 6px -4px #777;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__popupNavbar__loginSignUp-btn {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .header__popupNavbar__loginSignUp-btn {
+    gap: 0;
+    align-items: unset;
+  }
+}
