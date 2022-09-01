@@ -1,7 +1,7 @@
 export default function searchInput(e, search, setSearch, notes, setNotes) {
     setSearch(e.target.value);
-    console.log(search);
-    console.log(notes);
+    
+    
 
     let j = 0;
     let searchNoteArr = [];
@@ -29,5 +29,5 @@ export default function searchInput(e, search, setSearch, notes, setNotes) {
         })
     }
 
-    console.log(searchNoteArr);
+    
 }
