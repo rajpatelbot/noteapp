@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 
-const authUser = async (req, res, next) => {
+const authUser = (req, res, next) => {
   try {
     const token = req.cookies.loginCookie
     const verifiedUser = jwt.verify(token, process.env.JWT_SECRET)
