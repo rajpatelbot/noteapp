@@ -57,7 +57,6 @@ const Form = ({ formName, cls, setUser }) => {
         },
         config
       )
-      console.log(data)
       if (data.data._id) {
         navigate('/notes')
         setUser({ email: data.data.email, _id: data.data._id })
