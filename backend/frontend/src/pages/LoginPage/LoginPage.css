@@ -1,15 +1,15 @@
-.loginSigupBody{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-    height: calc(100% - var(--nodeapp-header-height) - 1rem);
+.loginSigupBody {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  height: calc(100% - var(--nodeapp-header-height) - 1rem);
 }
 
 @media screen and (max-width: 900px) {
-    .loginSigupBody{
-        height: unset;
-        flex-direction: column-reverse;
-    }
+  .loginSigupBody {
+    height: unset;
+    flex-direction: column-reverse;
+  }
 }

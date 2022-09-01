@@ -8,30 +8,28 @@
 
 /* This animation is for login signup */
 @keyframes animationImage {
-  from{
+  from {
     transform: translateX(100%);
   }
-  to{
-    
+  to {
   }
 }
 
-.imgAnimate{
+.imgAnimate {
   animation-name: animationImage;
   animation-duration: 1s;
 }
 
 /* This animation is for home page animation */
 @keyframes imghomeAnimate {
-  from{
+  from {
     transform: translateX(-100%);
   }
-  to{
-    
+  to {
   }
 }
 
-.homeImgAnimate{
+.homeImgAnimate {
   animation-name: imghomeAnimate;
   animation-duration: 1s;
 }
@@ -42,7 +40,7 @@
     width: clamp(30rem, 45vw, 60rem);
   }
 
-  .imgAnimate{
+  .imgAnimate {
     margin-top: 3rem;
   }
 }

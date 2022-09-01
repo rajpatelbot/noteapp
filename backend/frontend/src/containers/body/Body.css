@@ -37,15 +37,14 @@
 
 /* This animation is for homepage */
 @keyframes animation {
-  from{
+  from {
     transform: translateX(100%);
   }
-  to{
-    
+  to {
   }
 }
 
-.animate{
+.animate {
   animation-name: animation;
   animation-duration: 1s;
 }

@@ -88,12 +88,12 @@
   border-radius: 5rem;
 }
 
-.userProf{
+.userProf {
   color: #757575;
   cursor: pointer;
 }
 
-.noteapp__header__user-info-dropdown{
+.noteapp__header__user-info-dropdown {
   height: 10rem;
   padding: 1rem;
   position: absolute;
@@ -105,7 +105,7 @@
   background-color: var(--light-white-bg);
 }
 
-.noteapp__header__user-info-dropdown-option{
+.noteapp__header__user-info-dropdown-option {
   padding: 0.5rem;
   width: 100%;
   cursor: pointer;
@@ -114,7 +114,7 @@
   border-radius: 0.4rem;
 }
 
-.noteapp__header__user-info-dropdown-option:hover{
+.noteapp__header__user-info-dropdown-option:hover {
   background-color: rgb(220, 220, 220);
 }
 
@@ -125,7 +125,7 @@
   font-size: var(--noteapp-button-font-size);
 }
 
-.navigation:hover{
+.navigation:hover {
   color: var(--blue-bg);
 }
 
@@ -163,22 +163,22 @@
     width: unset;
   }
 
-  .noteapp__header__user-info{
+  .noteapp__header__user-info {
     flex-direction: row;
   }
-  
-  .navigationDiv > :first-child{
+
+  .navigationDiv > :first-child {
     cursor: default;
     border-radius: unset;
     padding-bottom: 0.8rem;
     /* border: 1px solid rgb(180, 180, 180); */
   }
 
-  .navigationDiv > :first-child:hover{
+  .navigationDiv > :first-child:hover {
     background-color: unset;
   }
 
-  .noteapp__header__user-info > p{
+  .noteapp__header__user-info > p {
     margin-left: 0.5rem;
     font-weight: normal;
     font-size: var(--noteapp-button-font-size);

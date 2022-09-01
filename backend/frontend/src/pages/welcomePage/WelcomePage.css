@@ -1,188 +1,188 @@
 .note__create-form {
-    display: flex;
-    margin-top: 1rem;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: flex-start;
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-start;
 }
 
 .note__create-form > form {
-    border-radius: 0.6rem;
-    width: 50rem;
-    margin: 5rem 0;
-    display: flex;
-    padding: 2rem;
-    align-items: center;
-    justify-self: center;
-    flex-direction: column;
-    background-color: var(--light-white-bg);
-    box-shadow: var(--box-shadow);
+  border-radius: 0.6rem;
+  width: 50rem;
+  margin: 5rem 0;
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  background-color: var(--light-white-bg);
+  box-shadow: var(--box-shadow);
 }
 
-.input{
-    width: 100%;
-    display: flex;
-    margin-top: 2rem;
-    border-radius: 0.6rem;
-    background-color: #fff;
+.input {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  border-radius: 0.6rem;
+  background-color: #fff;
 }
 
 .note__create-form > form > .input > input,
 .note__create-form > form > .input > textarea,
 .noteapp__welcomePage-noteInfo-search-header > input {
-    width: 100%;
-    border: none;
-    height: 4rem;
-    outline: none;
-    font-weight: normal;
-    padding: 0.2rem 1rem;
-    border-radius: 0.6rem;
-    font-size: var(--noteapp-button-font-size);
+  width: 100%;
+  border: none;
+  height: 4rem;
+  outline: none;
+  font-weight: normal;
+  padding: 0.2rem 1rem;
+  border-radius: 0.6rem;
+  font-size: var(--noteapp-button-font-size);
 }
 
-.createBtn{
-    margin-top: 2rem;
+.createBtn {
+  margin-top: 2rem;
 }
 
 .noteapp__welcomePage-noteInfo-search-header > input {
-    width: 20vw;
-    padding: 0 2rem;
-    border-radius: 5rem;
-    max-width: 50rem;
+  width: 20vw;
+  padding: 0 2rem;
+  border-radius: 5rem;
+  max-width: 50rem;
 }
 
-.note__create-form > form > .input > textarea{
-    resize: none;
-    height: 15rem;
+.note__create-form > form > .input > textarea {
+  resize: none;
+  height: 15rem;
 }
 
-.welcomePage__msg{
-    color: #49AF41;
-    margin-top: 1rem;
-    text-align: center;
-    font-size: var(--noteapp-button-font-size);
+.welcomePage__msg {
+  color: #49af41;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: var(--noteapp-button-font-size);
 }
 
-.noteapp__welcomePage-noteInfo-search-header{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: var(--nodeapp-header-height);
-    background-color: var(--light-white-bg);
-    box-shadow: var(--box-shadow);
+.noteapp__welcomePage-noteInfo-search-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nodeapp-header-height);
+  background-color: var(--light-white-bg);
+  box-shadow: var(--box-shadow);
 }
 
-.noteapp__welcomePage-noteInfo-search-header > h1{
-    color: var(--blue-bg);
-    font-size: var(--noteapp-navbar-font-size);
+.noteapp__welcomePage-noteInfo-search-header > h1 {
+  color: var(--blue-bg);
+  font-size: var(--noteapp-navbar-font-size);
 }
 
 /* note css */
-.noteapp__welcomePage-noteRender-parent-container{
-    gap: 5rem;
-    width: 100%;
-    /* height: 30vh; */
-    display: flex;
-    padding: 5rem 0;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-    justify-content: center;
+.noteapp__welcomePage-noteRender-parent-container {
+  gap: 5rem;
+  width: 100%;
+  /* height: 30vh; */
+  display: flex;
+  padding: 5rem 0;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  justify-content: center;
 }
 
-.noteapp__welcomePage-createdNote{
-    display: flex;
-    flex-direction: column;
-    width: 45rem;
-    height: 30rem;
-    border: 1px solid rgba(0,0,0,.1);
-    border-radius: 1rem;
-    box-shadow: var(--box-shadow);
-    background-color: var(--light-white-bg);
-    transition: all 0.1s linear;
+.noteapp__welcomePage-createdNote {
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  height: 30rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  background-color: var(--light-white-bg);
+  transition: all 0.1s linear;
 }
 
-.noteapp__welcomePage-createdNote:hover{
-    transform: scale(1.03);
+.noteapp__welcomePage-createdNote:hover {
+  transform: scale(1.03);
 }
 
-.noteapp__welcomePage-createdNote-title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
+.noteapp__welcomePage-createdNote-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
 }
 
-.noteapp__welcomePage-createdNote-desc{
-    height: 100%;
-    width: 100%;
-    padding: 1rem;
-    overflow: auto;
-    text-align: justify;
+.noteapp__welcomePage-createdNote-desc {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  overflow: auto;
+  text-align: justify;
 }
 
 .noteapp__welcomePage-createdNote-title > h1,
 .noteapp__welcomePage-createdNote-desc > h1,
 .noteapp__welcomePage-createdNote-note-info > h1 {
-    font-weight: 500;
-    font-size: clamp(1rem, 1.3rem, 1.5vw);
-    font-size: var(--noteapp-button-font-size);
+  font-weight: 500;
+  font-size: clamp(1rem, 1.3rem, 1.5vw);
+  font-size: var(--noteapp-button-font-size);
 }
 
-.noteapp__welcomePage-createdNote-note-info{
-    display: flex;
-    padding: 1rem;
-    font-size: 2rem;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid rgba(0,0,0,.1);
+.noteapp__welcomePage-createdNote-note-info {
+  display: flex;
+  padding: 1rem;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#speakBtn > path{
-    color: #6186F3!important; 
+#speakBtn > path {
+  color: #6186f3 !important;
 }
 
-#editBtn > g > path{
-    color: #32CD32!important; 
+#editBtn > g > path {
+  color: #32cd32 !important;
 }
 
-#deleteBtn > g > path{
-    color: #D2222D!important; 
+#deleteBtn > g > path {
+  color: #d2222d !important;
 }
 
 /* Media queries */
 @media screen and (max-width: 900px) {
-    .createBtn{
-        width: 100%;
-    }
+  .createBtn {
+    width: 100%;
+  }
 
-    .noteapp__welcomePage-noteInfo-search-header > input{
-        width: 40vw;
-    }
+  .noteapp__welcomePage-noteInfo-search-header > input {
+    width: 40vw;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .note__create-form > form {
-        width: 75vw;
-    }
+  .note__create-form > form {
+    width: 75vw;
+  }
 
-    .noteapp__welcomePage-noteInfo-search-header{
-        height: unset;
-        flex-direction: column;
-    }
+  .noteapp__welcomePage-noteInfo-search-header {
+    height: unset;
+    flex-direction: column;
+  }
 
-    .noteapp__welcomePage-noteRender-parent-container{
-        height: unset;
-    }
-    
-    .noteapp__welcomePage-noteInfo-search-header > input {
-        width: 100%;
-        margin: 1rem 0;
-    }
+  .noteapp__welcomePage-noteRender-parent-container {
+    height: unset;
+  }
 
-    .noteapp__welcomePage-createdNote{
-        width: 75vw;
-    }
-}    
+  .noteapp__welcomePage-noteInfo-search-header > input {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .noteapp__welcomePage-createdNote {
+    width: 75vw;
+  }
+}

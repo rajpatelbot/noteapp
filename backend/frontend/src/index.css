@@ -27,15 +27,17 @@ html {
   font-size: 62.5%;
 }
 
-html, body, #root{
+html,
+body,
+#root {
   height: 100%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-#root{
+#root {
   transition: all 0.2s;
 }
 
@@ -48,12 +50,12 @@ body {
   padding: 1rem 4rem;
 }
 
-.show{
-  transform: translateY(0)!important;
+.show {
+  transform: translateY(0) !important;
 }
 
-.show-UserInfo{
-  transform: translateX(0)!important;
+.show-UserInfo {
+  transform: translateX(0) !important;
 }
 
 /* scrollbar */
