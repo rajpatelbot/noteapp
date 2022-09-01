@@ -75,7 +75,7 @@ const userControllers = {
     }
   },
 
-  logoutUser:  (req, res) => {
+  logoutUser: (req, res) => {
     res.cookie('loginCookie', '', { maxAge: 10 }).send({ success: true })
   }
 }

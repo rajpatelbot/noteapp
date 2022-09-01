@@ -11,7 +11,7 @@ const noteControllers = {
     }
   },
 
-  createNotes:  (req, res) => {
+  createNotes: (req, res) => {
     try {
       const { title, description } = req.body
 
