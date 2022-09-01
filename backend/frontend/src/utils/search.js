@@ -1,5 +1,4 @@
 export default function searchInput (e, search, setSearch, notes, setNotes) {
-
   let j = 0
   const searchNoteArr = []
   const SearchKey = search.toLowerCase().trim()
