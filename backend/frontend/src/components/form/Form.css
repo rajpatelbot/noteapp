@@ -1,102 +1,105 @@
-.form{
-    background-color: var(--light-white-bg)!important;
-    border-radius: 0.5rem;
-    padding: 2rem;
-    width: 55rem;
-    margin-right: 10rem;
-    box-shadow: var(--box-shadow);
+.form {
+  background-color: var(--light-white-bg) !important;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 55rem;
+  margin-right: 10rem;
+  box-shadow: var(--box-shadow);
 }
 
 .form > h1 {
-    text-align: center;
-    color: var(--blue-bg);
-    font-size: var(--noteapp-navbar-font-size);
+  text-align: center;
+  color: var(--blue-bg);
+  font-size: var(--noteapp-navbar-font-size);
 }
 
-.email, .password{
-    width: 100%;
-    display: flex;
-    margin-top: 2rem;
-    flex-direction: column;
+.email,
+.password {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
 }
 
-.email > label, .password > label{
-    font-weight: normal;
-    color: var(--blue-bg);
-    font-size: var(--noteapp-navbar-font-size);
+.email > label,
+.password > label {
+  font-weight: normal;
+  color: var(--blue-bg);
+  font-size: var(--noteapp-navbar-font-size);
 }
 
-.email > input, .form__input-showHideBtn{
-    border: none;
-    height: 4rem;
-    margin-top: 0.5rem;
-    border-radius: 3rem;
-    padding: 0.2rem 1rem;
-    outline: none;
-    font-size: var(--noteapp-button-font-size);
-    font-weight: normal;
+.email > input,
+.form__input-showHideBtn {
+  border: none;
+  height: 4rem;
+  margin-top: 0.5rem;
+  border-radius: 3rem;
+  padding: 0.2rem 1rem;
+  outline: none;
+  font-size: var(--noteapp-button-font-size);
+  font-weight: normal;
 }
 
-.form__input-showHideBtn{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
+.form__input-showHideBtn {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
 }
 
-.form__input-showHideBtn > input{
-    height: 90%;
-    font-size: var(--noteapp-button-font-size);
-    width: 100%;
-    border: none;
-    font-weight: normal;
-    outline: none;
+.form__input-showHideBtn > input {
+  height: 90%;
+  font-size: var(--noteapp-button-font-size);
+  width: 100%;
+  border: none;
+  font-weight: normal;
+  outline: none;
 }
 
-.passBtn{
-    font-size: 3rem;
-    cursor: pointer;
+.passBtn {
+  font-size: 3rem;
+  cursor: pointer;
 }
 
-.OR-divider{
-    color: gray;
-    overflow: hidden;
-    font-weight: 400;
-    text-align: center;
-    font-size: var(--noteapp-button-font-size);
+.OR-divider {
+  color: gray;
+  overflow: hidden;
+  font-weight: 400;
+  text-align: center;
+  font-size: var(--noteapp-button-font-size);
 }
 
-.google__signIn-Btn{
-    width: 100%;
-    height: 3rem;
-    margin-top: 2rem;
-    padding: 1.7rem!important;
-    border-radius: 50px!important;
-    box-shadow: var(--box-shadow)!important;
+.google__signIn-Btn {
+  width: 100%;
+  height: 3rem;
+  margin-top: 2rem;
+  padding: 1.7rem !important;
+  border-radius: 50px !important;
+  box-shadow: var(--box-shadow) !important;
 }
 
-.google__signIn-Btn > div{
-    padding: 5px!important;
-    background-color: unset!important;
+.google__signIn-Btn > div {
+  padding: 5px !important;
+  background-color: unset !important;
 }
 
-.google__signIn-Btn > div > svg{
-    filter: drop-shadow(0 0 3px #fff);
+.google__signIn-Btn > div > svg {
+  filter: drop-shadow(0 0 3px #fff);
 }
 
-.google__signIn-Btn > span{
-    color: #fff!important;
-    font-size: var(--noteapp-button-font-size);
+.google__signIn-Btn > span {
+  color: #fff !important;
+  font-size: var(--noteapp-button-font-size);
 }
 
 .OR-divider::before,
-.OR-divider::after{
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
+.OR-divider::after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
 }
 
 .OR-divider:before {
@@ -109,39 +112,36 @@
   margin-right: -50%;
 }
 
-.errorMsg{
-    margin-top: 1rem;
-    color: red!important;
-    text-align: center;
-    font-size: var(--noteapp-button-font-size);
+.errorMsg {
+  margin-top: 1rem;
+  color: red !important;
+  text-align: center;
+  font-size: var(--noteapp-button-font-size);
 }
 
-.formBtn{
-    width: 100%;
-    margin: 3rem 0;
-    margin-bottom: 2rem;
+.formBtn {
+  width: 100%;
+  margin: 3rem 0;
+  margin-bottom: 2rem;
 }
 
 @keyframes animationForm {
-  from{
+  from {
     transform: translateX(-100%);
   }
-  to{
-    
+  to {
   }
 }
 
-.formAnimate{
+.formAnimate {
   animation-name: animationForm;
   animation-duration: 1s;
 }
 
-
 @media screen and (max-width: 900px) {
-    .form{
-        margin-top: 2rem;
-        margin-right: 0px;
-        width: 75vw;
-    }
+  .form {
+    margin-top: 2rem;
+    margin-right: 0px;
+    width: 75vw;
+  }
 }
-    

@@ -1,106 +1,115 @@
-.darkMode{
-    *{
-        --light-white-bg: #333446;
-        --para-light-black: rgb(170, 170, 170);
-        --blue-bg: #ff527e;
-        --box-shadow: 0 6px 6px -4px rgb(135, 135, 135);
-        color: #fff;
-        background-color: #1C1D31;
-    }
+.darkMode {
+  * {
+    --light-white-bg: #333446;
+    --para-light-black: rgb(170, 170, 170);
+    --blue-bg: #ff527e;
+    --box-shadow: 0 6px 6px -4px rgb(135, 135, 135);
+    color: #fff;
+    background-color: #1c1d31;
+  }
 
-    button{
-        box-shadow: #888888 0px 0.3rem 0.5rem;
-    }
+  button {
+    box-shadow: #888888 0px 0.3rem 0.5rem;
+  }
 
-    .header{
-        box-shadow: var(--box-shadow);
-    }
+  .header {
+    box-shadow: var(--box-shadow);
+  }
 
-    .navigationDiv,
-    .navigationDiv > a > a,
-    .noteapp__header__logoImg-name,
-    .noteapp__header__logoImg-name > img,
-    .noteapp__header__logoImg-name > h1,
-    .noteApp__header__loginSignUp-Btn,
-    .noteApp__header__loginSignUp-Btn > a,
-    .header__popupNavbar__loginSignUp-btn,
-    .noteApp__header_toggleMenu > svg,
-    .header__popupNavbar__loginSignUp-btn > a,
-    form > p, .form > h1, form, .email, .password, .email > label, .password > label,
-    .noteapp__welcomePage-noteInfo-search-header > h1,
-    .noteapp__welcomePage-createdNote-title,
-    .noteapp__welcomePage-createdNote-title > h1,
-    .noteapp__welcomePage-createdNote-title > svg,
-    .noteapp__welcomePage-createdNote-desc,
-    .noteapp__welcomePage-createdNote-desc > h1,
-    .noteapp__welcomePage-createdNote-note-info,
-    .noteapp__welcomePage-createdNote-note-info > svg ,
-    .noteapp__welcomePage-createdNote-note-info > h1,
-    .header__popupNavbar,
-    .noteapp__header__user-info-dropdown-option,
-    .noteapp__header__user-info-dropdown-option > svg,
-    .noteapp__header__user-info-dropdown-option > p, .noteapp__header__user-info,
-    .navigation{
-        background-color: var(--light-white-bg);
-    }
+  .navigationDiv,
+  .navigationDiv > a > a,
+  .noteapp__header__logoImg-name,
+  .noteapp__header__logoImg-name > img,
+  .noteapp__header__logoImg-name > h1,
+  .noteApp__header__loginSignUp-Btn,
+  .noteApp__header__loginSignUp-Btn > a,
+  .header__popupNavbar__loginSignUp-btn,
+  .noteApp__header_toggleMenu > svg,
+  .header__popupNavbar__loginSignUp-btn > a,
+  form > p,
+  .form > h1,
+  form,
+  .email,
+  .password,
+  .email > label,
+  .password > label,
+  .noteapp__welcomePage-noteInfo-search-header > h1,
+  .noteapp__welcomePage-createdNote-title,
+  .noteapp__welcomePage-createdNote-title > h1,
+  .noteapp__welcomePage-createdNote-title > svg,
+  .noteapp__welcomePage-createdNote-desc,
+  .noteapp__welcomePage-createdNote-desc > h1,
+  .noteapp__welcomePage-createdNote-note-info,
+  .noteapp__welcomePage-createdNote-note-info > svg,
+  .noteapp__welcomePage-createdNote-note-info > h1,
+  .header__popupNavbar,
+  .noteapp__header__user-info-dropdown-option,
+  .noteapp__header__user-info-dropdown-option > svg,
+  .noteapp__header__user-info-dropdown-option > p,
+  .noteapp__header__user-info,
+  .navigation {
+    background-color: var(--light-white-bg);
+  }
 
-    .noteapp__welcomePage-createdNote-title{
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    .noteapp__welcomePage-createdNote-note-info {    
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    .noteapp__welcomePage-createdNote{
-        border: 1px solid rgba(255, 255, 255, 0.1);
-    }
+  .noteapp__welcomePage-createdNote-title {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .noteapp__welcomePage-createdNote-note-info {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .noteapp__welcomePage-createdNote {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
 
-    .noteapp__header__user-info-dropdown{
-        box-shadow: var(--box-shadow);
-    }
+  .noteapp__header__user-info-dropdown {
+    box-shadow: var(--box-shadow);
+  }
 
-    .noteapp__header__user-info-dropdown-option:hover{
-        background-color: unset;
-    }
+  .noteapp__header__user-info-dropdown-option:hover {
+    background-color: unset;
+  }
 
-    .noteapp__welcomePage-createdNote-title{
-        border-radius: 1rem 1rem 0 0;
-    }
+  .noteapp__welcomePage-createdNote-title {
+    border-radius: 1rem 1rem 0 0;
+  }
 
-    .noteapp__welcomePage-createdNote-note-info{
-        border-radius: 0 0 1rem 1rem;
-    }
+  .noteapp__welcomePage-createdNote-note-info {
+    border-radius: 0 0 1rem 1rem;
+  }
 
-    .circle_loader,
-    .google__Logout-Btn > span {
-        background-color: var(--blue-bg);
-    }
+  .circle_loader,
+  .google__Logout-Btn > span {
+    background-color: var(--blue-bg);
+  }
 
-    .google__signIn-Btn > span,
-    .google__signIn-Btn > div > svg {
-        padding: 0!important;
-        background-color: var(--blue-bg);
-        filter: drop-shadow(0 0 3px var(--blue-bg));
-    } 
+  .google__signIn-Btn > span,
+  .google__signIn-Btn > div > svg {
+    padding: 0 !important;
+    background-color: var(--blue-bg);
+    filter: drop-shadow(0 0 3px var(--blue-bg));
+  }
 
-    .google__Logout-Btn > span{
-        border-radius: 50%;
-    }
+  .google__Logout-Btn > span {
+    border-radius: 50%;
+  }
 
-    .form__input-showHideBtn, .input{
-        background-color: #1C1D31;
-    }
+  .form__input-showHideBtn,
+  .input {
+    background-color: #1c1d31;
+  }
 
-    .navBtn,.navigationDiv > a > a{
-        color: #fff!important;
-        box-shadow: none;
-    }
+  .navBtn,
+  .navigationDiv > a > a {
+    color: #fff !important;
+    box-shadow: none;
+  }
 
-    .navigationDiv > a > a:hover{
-        color: var(--blue-bg)!important;
-    }
+  .navigationDiv > a > a:hover {
+    color: var(--blue-bg) !important;
+  }
 
-    .darkModeBtn{
-        color: #000;
-        background: #fff!important;
-    }
+  .darkModeBtn {
+    color: #000;
+    background: #fff !important;
+  }
 }

@@ -1,5 +1,4 @@
 export default function searchInput (e, search, setSearch, notes, setNotes) {
-  setSearch(e.target.value)
 
   let j = 0
   const searchNoteArr = []
