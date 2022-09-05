@@ -1,6 +1,6 @@
 # My-Notes
 
-Live here : https://mernnoteapp66.herokuapp.com/
+[Live here](https://mernnoteapp66.herokuapp.com/)
 
 # Introduction
 
@@ -47,3 +47,5 @@ Thats all enjoy and take advantage of it. Be Happy 🤠
 
 - Github Profile : https://github.com/rajpatel17-bot
 - Linkedin Profile : https://www.linkedin.com/in/raj-patel-73a15bq/
+
+Released under the [GNU General Public License v3.0](https://github.com/rajpatel17-bot/mern-note-taking-app/blob/master/LICENSE)
