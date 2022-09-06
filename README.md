@@ -27,11 +27,10 @@ My notes offer you a platform to capture your task or anything which is in your 
 - JWT auth-token
 
 # Some images
+
 ![Annotation 2022-09-06 143215](https://user-images.githubusercontent.com/83405614/188643586-f8e3fc36-ad5f-42b4-808c-810d9329d840.png)
 ![Annotation 2022-09-06 183835](https://user-images.githubusercontent.com/83405614/188643705-a7a56899-86c9-4cc5-a40d-d783517f2c10.png)
 ![Annotation 2022-09-07 001314](https://user-images.githubusercontent.com/83405614/188714214-b94aa66f-f433-4240-aca9-18bfff9378f6.png)
-
-
 
 Thats all enjoy and take advantage of it. Be Happy 🤠
 
