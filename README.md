@@ -27,19 +27,9 @@ My notes offer you a platform to capture your task or anything which is in your 
 - JWT auth-token
 
 # Some images
+![Annotation 2022-09-06 143215](https://user-images.githubusercontent.com/83405614/188643586-f8e3fc36-ad5f-42b4-808c-810d9329d840.png)
+![Annotation 2022-09-06 183835](https://user-images.githubusercontent.com/83405614/188643705-a7a56899-86c9-4cc5-a40d-d783517f2c10.png)
 
-# Home Page
-
-![Screenshot (224)](https://user-images.githubusercontent.com/83405614/169061878-390a39a0-a1dc-45cf-9aa2-b3ebaef818d8.png)
-
-# Login-SignUp Page
-
-![Screenshot (244)](https://user-images.githubusercontent.com/83405614/169062095-a9bcdf7c-559d-419a-bb1b-39325c98fb7d.png)
-![Screenshot (228)](https://user-images.githubusercontent.com/83405614/169062227-cca6fb4c-7943-4d76-bb2e-99950642bd4d.png)
-
-# Welcome Page
-
-![Screenshot (264)](https://user-images.githubusercontent.com/83405614/169063136-ecbd6802-28d0-4305-99b6-37061780c038.png)
 
 Thats all enjoy and take advantage of it. Be Happy 🤠
 
