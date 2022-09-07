@@ -32,7 +32,6 @@ My notes offer you a platform to capture your task or anything which is in your 
 ![Annotation 2022-09-06 183835](https://user-images.githubusercontent.com/83405614/188643705-a7a56899-86c9-4cc5-a40d-d783517f2c10.png)
 ![Annotation 2022-09-07 001314](https://user-images.githubusercontent.com/83405614/188714214-b94aa66f-f433-4240-aca9-18bfff9378f6.png)
 
-
 Thats all enjoy and take advantage of it. Be Happy 🤠
 
 # Credit : Raj Patel
