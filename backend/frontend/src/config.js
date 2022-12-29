@@ -1,5 +1,5 @@
-import axios from 'axios'
+import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: 'https://noteapp-nine.vercel.app/'
-})
+  baseURL: "https://noteapp-nine.vercel.app/",
+});
