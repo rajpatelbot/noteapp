@@ -20,7 +20,7 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ip-172-31-42-182
+    runs-on: ubuntu-latest
     steps:
       - name: Pull image from docker hub
         run: docker pull rajpatelbot/noteapp-backend:latest
