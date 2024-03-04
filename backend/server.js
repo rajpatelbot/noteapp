@@ -29,4 +29,9 @@ app.get("*", (req, res) => {
 
 // PORT LISTNER
 const PORT = process.env.PORT;
-app.use((PORT, () => console.log(`Server is running on port ${PORT}`)));
+app.use(
+  (PORT,
+  (req, res) => {
+    res.send("Server is running on port: " + PORT);
+  })
+);
