@@ -20,7 +20,7 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Pull image from docker hub
         run: docker pull rajpatelbot/noteapp-backend:latest
